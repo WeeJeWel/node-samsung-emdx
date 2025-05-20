@@ -1,0 +1,27 @@
+{
+  "name": "@weejewel/samsung-emdx",
+  "version": "1.0.0",
+  "description": "Show an image on a Samsung EMDX E-Paper Display from the command line.",
+  "private": false,
+  "type": "module",
+  "bin": {
+    "samsung-emdx": "bin/index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeeJeWel/node-samsung-emdx.git"
+  },
+  "author": "Emile Nijssen",
+  "license": "ISC",
+  "dependencies": {
+    "@loxjs/node-local-ip": "^2.0.3",
+    "@weejewel/samsung-mdc": "^0.4.0",
+    "express": "^5.1.0",
+    "get-port": "^7.1.0",
+    "uuid": "^11.1.0",
+    "yargs": "^17.7.2"
+  }
+}
